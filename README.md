@@ -1,6 +1,6 @@
 # React-Redux-Tutorial
 
-본 프로젝트는 React 함수형 컴포넌트에서 Redux를 사용하기 위한 튜토리얼이다. 이를 위해 간단하게 값을 증가, 감소시키는 웹 앱을 구현하였다.
+본 프로젝트는 React 함수형 컴포넌트에서 Redux를 사용하기 위한 튜토리얼이다. 이를 위해 간단하게 값을 증가, 감소시키고 배경 색을 변경시키는 웹 앱을 구현하였다.
 
 - https://choewy.github.io/react-redux-tutorial/
 
