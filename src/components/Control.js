@@ -5,7 +5,7 @@ const Control = (props) => {
         <div>
             <button onClick={props.onPlus}>+</button>
             <button onClick={props.onSubtract}>-</button>
-            <button onClick={props.onRandomizeColor}>Randomize Color</button>
+            <button onClick={props.onRandomizeColor}>배경색 변경</button>
         </div>
     );
 };
@@ -17,7 +17,7 @@ Control.propTypes = {
 };
 
 const createWarning = (funcName) => {
-    return () => console.warn(`${funcName} is not defined`);
+    return () => console.warn(`${funcName}가 정의되지 않았습니다.`);
 }
 
 Control.defaultProps = {

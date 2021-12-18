@@ -1,11 +1,11 @@
 import * as types from '../actions/types';
 
-/* 초기 상태 정의 */
+// state
 const initialState = {
     color: [255, 255, 255]
 };
 
-/* ui 리듀서 */
+// reducer
 const ui = (state = initialState, action) => {
     switch (action.type) {
         case types.SET_COLOR:

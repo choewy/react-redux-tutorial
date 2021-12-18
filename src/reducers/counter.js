@@ -1,11 +1,11 @@
 import * as types from '../actions/types';
 
-/* 초기 상태 정의 */
+// state
 const initialState = {
     number: 0
 };
 
-/* 카운터 리듀서 */
+// reducer
 const counter = (state = initialState, action) => {
     switch (action.type) {
         case types.INCREMENT:
